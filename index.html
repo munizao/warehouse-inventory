@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to the Warehouse of Curiosities</h1>
+        <h1>Welcome to the Museum of Transportation Inventory System</h1>
     </header>
     <main>
         <p>
@@ -17,11 +17,18 @@
         <p>
             <a href="list.html">List all items</a>
         </p>
-        <p>
-            <form id="category-form">
-                Enter a category: <input type="text" name="category"> <input type="submit" value="List matching items"> 
+        <form id="category-form">
+            <p>
+                Choose a category: 
+                <input type="radio" name="category" value="train">Train
+                <input type="radio" name="category" value="airplane">Airplane
+                <input type="radio" name="category" value="auto">Automobile
+                <input type="radio" name="category" value="boat">Boat
+            </p>
+            <p>
+                <input type="submit" value="List matching items"> 
+            </p>
             </form>
-        </p>
     </main>
     <script type="module" src="src/index.js"></script>
 </body>
